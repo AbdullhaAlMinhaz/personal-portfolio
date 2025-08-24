@@ -149,3 +149,38 @@ main section{
     border-radius: 10px;
     /* box-shadow: #757575; */
 }
+
+
+/* Resume section styles............................................................................... */
+
+.resume-container{
+    display: flex;
+    gap: 30px;
+
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.section-title{
+    text-align: center;
+}
+.btn-s{
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-background-color{
+    background-color:#FFF8F3;
+    margin-left: 0px;
+    width: 1250px;
+    height: 780px;
+}
+.footer-type{
+    display: flex;
+    padding: 130px 230px;
+    gap: 30px;
+}
+footer input[type="text"], footer textarea{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
